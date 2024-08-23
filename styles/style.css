@@ -15,12 +15,12 @@ html {
 .page {
   inline-size: 1200px;
   block-size: 100%;
-  margin: auto;
+  margin:auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  align-content: center;
+  display: flex;
 }
 
 h1,
@@ -43,10 +43,12 @@ ol {
 }
 
 .content {
+  align-self: center;
   display: flex;
   width: 1140px;
   height: 534px;
   box-sizing: border-box;
+
 }
 
 .result {
